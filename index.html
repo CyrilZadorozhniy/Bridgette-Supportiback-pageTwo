@@ -42,7 +42,7 @@
         <p class="price">£38.87</p>
         <p class="old-price">£69.95</p>
         <p class="description">UK Wide<span class="bold"> Free Shipping</span></p>
-        <button class="button-cart">Buy Now on Amazon</button>
+        <a class="button-cart">Buy Now on Amazon</a>
       </div>
     </div>
   </section>
@@ -53,16 +53,18 @@
     </div>
     <div class="action-2">
       <p>Enter Your Email to Generate Your Unique Coupon Code</p>
-      <label>
-        <input type="email" placeholder="Enter your email">
-        <button class="email-button">Enter Email</button>
-      </label>
+      <form class="site-form">
+        <label>
+          <input type="email" placeholder="Enter your email">
+          <button class="email-button" type="submit">Enter Email</button>
+        </label>
+      </form>
     </div>
     <div class="action-3">
       <h3>Use this code at checkout on Amazon</h3>
       <h4>BGLKD</h4>
       <p>Copy the above code and Paste in the “Gift Cards & Promotional Codes” box after you choose your Shipping Method.</p>
-      <button class="button-cart">Buy Now on Amazon</button>
+      <a href="#" class="button-cart">Buy Now on Amazon</a>
     </div>
   </section>
   <section class="wakeup-section">
@@ -273,10 +275,9 @@
       </ul>
   </section>
   <script
-          src="https://code.jquery.com/jquery-3.2.1.slim.js"
-          integrity="sha256-tA8y0XqiwnpwmOIl3SGAcFl2RvxHjA8qp0+1uCGmRmg="
-          crossorigin="anonymous">
-  </script>
+          src="https://code.jquery.com/jquery-3.2.1.min.js"
+          integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+          crossorigin="anonymous"></script>
   <script type="text/javascript" src="slick/slick.min.js"></script>
   <script src="js/main.js"></script>
 </body>

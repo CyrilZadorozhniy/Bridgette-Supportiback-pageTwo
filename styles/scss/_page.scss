@@ -562,7 +562,7 @@ input {
       justify-content: space-between;
     }
     .wrap-img {
-      max-width: 441px;
+      max-width: 100%;
       img {
         width: 100%;
         overflow: hidden;
@@ -572,9 +572,11 @@ input {
 }
 .button-cart {
   padding: 10px 15px;
-  display: flex;
+  cursor: pointer;
+  display: inline-block;
   align-items: center;
   font-weight: bold;
+  text-decoration: none;
   font-size: 16px;
   color: #2f2f2f;
   background-color: #faab38;
